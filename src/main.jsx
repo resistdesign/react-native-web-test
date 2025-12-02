@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppRegistry } from 'react-native-web';
-import App from './App';
+import App from './App.jsx';
 import './styles.css';
 
 AppRegistry.registerComponent('App', () => App);
