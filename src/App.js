@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'https://esm.sh/react@18.3.1';
+import React, { useMemo, useState } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -7,7 +7,7 @@ import {
   TextInput,
   TouchableOpacity,
   View,
-} from 'https://esm.sh/react-native-web@0.19.12';
+} from 'react-native-web';
 
 const fields = [
   {

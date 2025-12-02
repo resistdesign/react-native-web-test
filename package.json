@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "description": "Simple React Native Web form example",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "python -m http.server 4173",
+    "start": "vite dev --host --port 4173",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"No automated tests configured\""
   },
   "keywords": ["react-native-web", "example", "form"],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native-web": "0.19.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.3",
+    "vite": "5.4.2"
+  }
 }
