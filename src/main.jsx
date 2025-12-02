@@ -1,6 +1,7 @@
-import React from 'https://esm.sh/react@18.3.1';
-import { AppRegistry } from 'https://esm.sh/react-native-web@0.19.12';
-import App from './src/App.js';
+import React from 'react';
+import { AppRegistry } from 'react-native-web';
+import App from './App';
+import './styles.css';
 
 AppRegistry.registerComponent('App', () => App);
 
