@@ -1,0 +1,14 @@
+{
+  "name": "react-native-web-test",
+  "version": "1.0.0",
+  "description": "Simple React Native Web form example",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m http.server 4173",
+    "test": "echo \"No automated tests configured\""
+  },
+  "keywords": ["react-native-web", "example", "form"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
